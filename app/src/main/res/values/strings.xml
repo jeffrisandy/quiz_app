@@ -1,3 +1,51 @@
 <resources>
     <string name="app_name">Quiz App</string>
+    <string name="q1">Man Utd's longest serving captain ?</string>
+    <string name="q2">Man Utd's Goalkeepers</string>
+    <string name="q3">Current First Choice Goalkeeper ?</string>
+    <string name="q4">Utd's all time top scorer ?</string>
+    <string name="q5">Most appearances player all time ?</string>
+
+    <string name="rooney">Wayne Rooney</string>
+    <string name="giggs">Ryan Giggs</string>
+    <string name="saf">Sir Alex Ferguson</string>
+    <string name="robson">Bryan Robson</string>
+    <string name="law">Dennis Law</string>
+    <string name="ronaldo">Cristiano Ronaldo</string>
+    <string name="valencia">Antonio Valencia</string>
+    <string name="cantona">Eric Cantona</string>
+    <string name="scholes">Paul Scholes</string>
+    <string name="deGea">David De Gea</string>
+    <string name="edwin">Edwin van der Sar</string>
+    <string name="seaman">David Seaman</string>
+    <string name="carrick">Michael Carrick</string>
+    <string name="moyes">David Moyes</string>
+    <string name="keane">Roy Keane</string>
+
+    <!--Q-1 Answer string-->
+    <string name="q1_a1">Q-1 A-1</string>
+    <string name="q1_a2">Q-1 A-2</string>
+    <string name="q1_a3">Q-1 A-3</string>
+
+    <!--Q-2 Answer string-->
+    <string name="q2_a1">Q-2 A-1</string>
+    <string name="q2_a2">Q-2 A-2</string>
+    <string name="q2_a3">Q-2 A-3</string>
+
+    <!--Q-3 Answer string-->
+    <string name="q3_a1">Q-3 A-1</string>
+    <string name="q3_a2">Q-3 A-2</string>
+    <string name="q3_a3">Q-3 A-3</string>
+
+    <!--Q-4 Answer string-->
+    <string name="q4_a1">Q-4 A-1</string>
+    <string name="q4_a2">Q-4 A-2</string>
+    <string name="q4_a3">Q-4 A-3</string>
+
+    <!--Q-5 Answer string-->
+    <string name="q5_a1">Q-5 A-1</string>
+    <string name="q5_a2">Q-5 A-2</string>
+    <string name="q5_a3">Q-5 A-3</string>
+
+
 </resources>
