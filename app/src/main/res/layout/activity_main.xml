@@ -72,13 +72,13 @@
                 android:text="@string/seaman" />
 
             <CheckBox
-                android:id="@+id/q2_a1_checkbox"
+                android:id="@+id/q2_a2_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/deGea" />
 
             <CheckBox
-                android:id="@+id/q2_a1_checkbox"
+                android:id="@+id/q2_a3_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/edwin" />
@@ -97,7 +97,7 @@
                 android:layout_height="wrap_content"/>
 
             <EditText
-                android:id="@+id/album_description_view"
+                android:id="@+id/q3_answer_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/q3"
@@ -117,7 +117,7 @@
                 android:layout_height="wrap_content"/>
 
             <RadioGroup
-                android:id="@+id/q1_radio_group"
+                android:id="@+id/q4_radio_group"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -179,6 +179,31 @@
             </RadioGroup>
         </LinearLayout>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="submitAnswer"
+            android:textAllCaps="true"
+            android:text="@string/submit"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="reset"
+            android:textAllCaps="true"
+            android:text="@string/reset"
+
+            />
     </LinearLayout>
 
 

@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Quiz App</string>
-    <string name="q1">Man Utd's longest serving captain ?</string>
-    <string name="q2">Man Utd's Goalkeepers</string>
+    <string name="q1">Man Utd\'s longest serving captain ?</string>
+    <string name="q2">Man Utd\'s Goalkeepers</string>
     <string name="q3">Current First Choice Goalkeeper ?</string>
-    <string name="q4">Utd's all time top scorer ?</string>
+    <string name="q4">Utd\'s all time top scorer ?</string>
     <string name="q5">Most appearances player all time ?</string>
 
     <string name="rooney">Wayne Rooney</string>
@@ -21,6 +21,8 @@
     <string name="carrick">Michael Carrick</string>
     <string name="moyes">David Moyes</string>
     <string name="keane">Roy Keane</string>
+    <string name="submit">SUBMIT</string>
+    <string name="reset">RESET</string>
 
     <!--Q-1 Answer string-->
     <string name="q1_a1">Q-1 A-1</string>
