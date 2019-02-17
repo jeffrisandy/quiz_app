@@ -8,4 +8,25 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorDivider</item>
+    </style>
+
+    <style name="questions">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="answers">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="questions_box">
+        <item name="android:padding">15dp</item>
+    </style>
+
+
 </resources>

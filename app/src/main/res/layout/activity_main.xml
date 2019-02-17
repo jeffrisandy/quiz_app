@@ -15,18 +15,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Test your knowledge about Manchester United!" />
 
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="30sp"
+            android:padding="15dp"
+            android:text="@string/header" />
+
+        <View style="@style/Divider"/>
         <!--QUESTION 1-->
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            style="@style/questions_box">
 
             <TextView
                 android:text="@string/q1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                style="@style/questions"/>
 
             <RadioGroup
                 android:id="@+id/q1_radio_group"
@@ -39,62 +46,75 @@
                     android:layout_width="wrap_content"
                     android:id="@+id/q1_a1_button"
                     android:text="@string/robson"
-                    android:textSize="14sp"/>
+                    style="@style/answers"/>
                 <RadioButton
                     android:layout_height="match_parent"
                     android:layout_width="wrap_content"
                     android:id="@+id/q1_a2_button"
-                    android:text="@string/keane" />
+                    android:text="@string/keane"
+                    style="@style/answers"/>
                 <RadioButton
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:id="@+id/q1_a3_button"
-                    android:text="@string/valencia" />
+                    android:text="@string/valencia"
+                    style="@style/answers"/>
 
             </RadioGroup>
         </LinearLayout>
+
+        <View style="@style/Divider"/>
 
         <!--QUESTION 2-->
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            style="@style/questions_box">
 
             <TextView
                 android:text="@string/q2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                style="@style/questions"/>
 
             <CheckBox
                 android:id="@+id/q2_a1_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/answers"
                 android:text="@string/seaman" />
 
             <CheckBox
                 android:id="@+id/q2_a2_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/answers"
                 android:text="@string/deGea" />
 
             <CheckBox
                 android:id="@+id/q2_a3_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/answers"
                 android:text="@string/edwin" />
 
         </LinearLayout>
+
+        <View style="@style/Divider"/>
 
         <!--QUESTION 3-->
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            style="@style/questions_box">
 
             <TextView
                 android:text="@string/q3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                style="@style/questions"/>
 
             <EditText
                 android:id="@+id/q3_answer_text"
@@ -105,16 +125,20 @@
 
         </LinearLayout>
 
+        <View style="@style/Divider"/>
+
         <!--QUESTION 4-->
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            style="@style/questions_box">
 
             <TextView
                 android:text="@string/q4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                style="@style/questions"/>
 
             <RadioGroup
                 android:id="@+id/q4_radio_group"
@@ -127,31 +151,37 @@
                     android:layout_width="wrap_content"
                     android:id="@+id/q4_a1_button"
                     android:text="@string/ronaldo"
-                    android:textSize="14sp"/>
+                    style="@style/answers"/>
                 <RadioButton
                     android:layout_height="match_parent"
                     android:layout_width="wrap_content"
                     android:id="@+id/q4_a2_button"
+                    style="@style/answers"
                     android:text="@string/rooney" />
                 <RadioButton
                     android:layout_height="match_parent"
                     android:layout_width="wrap_content"
                     android:id="@+id/q4_a3_button"
+                    style="@style/answers"
                     android:text="@string/robson" />
 
             </RadioGroup>
         </LinearLayout>
 
+        <View style="@style/Divider"/>
+
         <!--QUESTION 5-->
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            style="@style/questions_box">
 
             <TextView
                 android:text="@string/q5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                style="@style/questions"/>
 
             <RadioGroup
                 android:id="@+id/q5_radio_group"
@@ -164,46 +194,58 @@
                     android:layout_width="wrap_content"
                     android:id="@+id/q5_a1_button"
                     android:text="@string/robson"
-                    android:textSize="14sp"/>
+                    style="@style/answers"/>
                 <RadioButton
                     android:layout_height="match_parent"
                     android:layout_width="wrap_content"
                     android:id="@+id/q5_a2_button"
+                    style="@style/answers"
                     android:text="@string/saf" />
                 <RadioButton
                     android:layout_height="match_parent"
                     android:layout_width="wrap_content"
                     android:id="@+id/q5_a3_button"
+                    style="@style/answers"
                     android:text="@string/giggs" />
 
             </RadioGroup>
         </LinearLayout>
 
-        <Button
-            android:layout_width="wrap_content"
+        <View style="@style/Divider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:onClick="submitAnswer"
-            android:textAllCaps="true"
-            android:text="@string/submit"
+            android:orientation="horizontal"
+            android:padding="15dp">
 
-            />
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorText"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="submitAnswer"
+                android:textAllCaps="true"
+                android:text="@string/submit"
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:onClick="reset"
-            android:textAllCaps="true"
-            android:text="@string/reset"
+                />
 
-            />
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorText"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="reset"
+                android:textAllCaps="true"
+                android:text="@string/reset"
+
+                />
+        </LinearLayout>
+
     </LinearLayout>
 
 

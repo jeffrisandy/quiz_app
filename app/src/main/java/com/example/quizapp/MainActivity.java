@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         score = q1Score() +q2Score() + q3Score() +q4Score() +q5Score();
 
 
-        Toast.makeText(this, "Your score " + score, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Your score is " + score + " of 5", Toast.LENGTH_SHORT).show();
     }
 
     public void reset(View view) {
@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, "Reset", Toast.LENGTH_SHORT).show();
     }
-
 
 
 
